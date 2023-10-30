@@ -1,0 +1,83 @@
+@font-face {
+    font-family: vcab;
+    src: url(fonts/Akira\ Expanded\ Demo.otf);
+}
+
+@font-face {
+    font-family: nav;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: about;
+    src: url(fonts/DonGraffiti.otf);
+}
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+html,body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;;
+    align-items: center;
+}
+
+.main img{
+    max-width:  30%;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.text{
+    height: 100vh;
+    width: 50%;
+    color: white;
+    
+    padding: 20px;
+    
+}
+
+.text h1{
+    margin-left: 15%;
+    margin-top: 25%;
+    font-family: vcab;
+    font-size: 300%;
+    color: greenyellow;
+    
+
+}
+
+.text h4{
+    font-family: nav;
+    margin-top: 20px;
+    margin-left: 15%;
+    
+}
+
+.text h4 button{
+    background-color:white;
+    color: black;
+    padding: 10px 40px ;
+    border-radius: 28px;
+    font-size: 20px;
+    border-color: black;
+    transition: 0.5s;
+    box-shadow:  5px 5px 10px rgba(174, 255, 0, 0.7);
+    font-family: nav;
+}
+.text button:hover{
+    background-color: greenyellow;
+}
